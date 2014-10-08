@@ -1,0 +1,51 @@
+<ion-content class="page">
+    <div class="statsBG">
+        <div class="stats animated fadeIn">
+            <h3 ui-sref="searchResults({searchTerm: ''})" ><span>{{numberOfNotes}}</span>Palm Notes</h3>
+        </div>
+    </div>
+    <section class="noteCategories animated fadeIn">
+        <button class="columns small-6 medium-6 noteCategory textType"
+                ui-sref="searchResults({searchTerm: 'texts'})">
+            <div class="icon">
+                <i class="ion-ios7-paper"></i>
+            </div>
+            Texts
+        </button>
+        <button class="columns small-6 medium-6 noteCategory addressType"
+                ui-sref="searchResults({searchTerm: 'addresses'})">
+            <div class="icon">
+                <i class="ion-ios7-location"></i>
+            </div>
+            Addresses
+        </button>
+        <button class="columns small-6 medium-6 noteCategory linkType"
+                ui-sref="searchResults({searchTerm: 'links'})">
+            <div class="icon">
+                <i class="ion-ios7-bookmarks"></i>
+            </div>
+            Links
+        </button>
+        <button class="columns small-6 medium-6 noteCategory passwordType"
+                ui-sref="searchResults({searchTerm: 'passwords'})">
+            <div class="icon">
+                <i class="ion-ios7-locked"></i>
+            </div>
+            Passwords
+        </button>
+        <button class="columns small-6 medium-6 noteCategory phoneType"
+                ui-sref="searchResults({searchTerm: 'numbers'})">
+            <div class="icon">
+                <i class="ion-ios7-telephone"></i>
+            </div>
+            Numbers
+        </button>
+        <button class="noteCategory emailType" ui-sref="searchResults({searchTerm: 'emails'})">
+            <div class="icon">
+                <i class="ion-ios7-email"></i>
+            </div>
+            Emails
+        </button>
+    </section>
+
+</ion-content>

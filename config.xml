@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="io.github.palmnote" version="0.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>PalmNote</name>
+  <description>
+        A minimal and user-friendly note taking app.
+  </description>
+  <author email="kpourdeilami@gmail.com">
+    Khashayar Pourdeilami
+  </author>
+  <access origin="*"/>
+  <content src="index.html" />
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <preference name="deployment-target" value="7.0"/>
+  <preference name="Fullscreen" value="true"/>
+  <icon src="www/img/logo-1.png"/>
+  <icon src="www/img/logo-android.png" platform="android" density="ldpi"/>
+  <icon src="www/img/logo-android.png" platform="android" density="mdpi"/>
+  <icon src="www/img/logo-android.png" platform="android" density="hdpi"/>
+  <icon src="www/img/logo-android.png" platform="android" density="xhdpi"/>
+  <feature name="StatusBar">
+    <param name="ios-package" value="CDVStatusBar" onload="true"/>
+  </feature>
+  <plugin name="InAppBrowser" value="CDVInAppBrowser"/>
+  <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser"/>
+</widget>

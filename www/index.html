@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Palm Note</title>
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400'
+          rel='stylesheet' type='text/css'>
+    <!-- End of Google Fonts -->
+    <!-- Ionic Javascript and Css -->
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <script src="lib/ionic/js/ionic.bundle.min.js"></script>
+    <!-- End of Ionic Javascript and Css -->
+    <!-- FireBase -->
+    <script src="lib/firebase/firebase.js"></script>
+    <script src="lib/angularfire/dist/angularfire.min.js"></script>
+    <script src="lib/firebase-simple-login/firebase-simple-login.js"></script>
+    <!-- End of FireBase -->
+    <!-- Css dependencies -->
+    <link href="css/foundation-custom.css" rel="stylesheet">
+    <link href="lib/animate.css/animate.min.css" rel="stylesheet">
+    <!-- End of Css dependencies -->
+    <!-- Javascript dependencies -->
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="lib/marked/lib/marked.js"></script>
+    <script src="lib/angular-marked/angular-marked.min.js"></script>
+    <!-- End of Javascript dependencies -->
+    <!-- Main App Css -->
+    <link href="css/app.css" rel="stylesheet">
+    <!-- End of Main App Css -->
+    <!-- Main App Javascript -->
+    <script src="js/app.js"></script>
+    <!-- End of Main App Javascript -->
+    <!-- Cordova script (this will be a 404 during development) -->
+    <script src="lib/ngCordova/dist/ng-cordova.min.js"></script>
+    <script src="cordova.js"></script>
+    <!-- End of cordova script -->
+</head>
+
+<body ng-app="PalmApp">
+    <ion-side-menus>
+        <!-- Center content -->
+        <ion-side-menu-content ng-controller="ContentCtrl">
+
+            <ion-header-bar align-title="left" class="bar-light topBar">
+                <div class="buttons" ng-switch="currentLocation">
+                    <div ng-switch-when="0">
+                        <button ng-click="toggleLeft()" class="button button-icon icon ion-navicon black"></button>
+                    </div>
+                    <div ng-switch-default>
+                        <button ng-click="goBack()" class="button button-icon icon ion-ios7-arrow-back black"></button>
+                    </div>
+                </div>
+                <h1 class="title">Palm Note</h1>
+                <div class="buttons" ng-switch="currentLocation">
+                    <div ng-switch-when="0">
+                        <button ng-click="openNewPalmNoteModal(0)" class="button button-icon icon black"><i class="ion-plus"></i> New note</button>
+                    </div>
+                    <div ng-switch-when="1">
+                        <button ng-click="openNewPalmNoteModal(0)" class="button button-icon icon black"><i class="ion-plus"></i> New note</button>
+                    </div>
+                    <div ng-switch-when="2">
+                        <button ng-click="openPopover($event)" class="button button-icon icon ion-ios7-more"></button>
+                    </div>
+                    <div ng-switch-default>
+
+                    </div>
+                </div>
+            </ion-header-bar>
+            <ion-nav-view animation="nav-title-slide-ios7"></ion-nav-view>
+        </ion-side-menu-content>
+
+        <!-- Left menu -->
+        <ion-side-menu side="left" expose-aside-when="large" class="sideMenuContainer" ng-controller="sideMenuCtrl" width="250">
+            <ion-header-bar class="bar-light sideBar">
+                <form ng-enter="search(searchTerm)" class="searchForm">
+                    <input class="searchTool" placeholder="search"
+                           ng-model="searchTerm">
+                    <i class="ion-ios7-search-strong"></i>
+                </form>
+            </ion-header-bar>
+            <ion-content class="sideMenuScroll">
+                <div class="sideMenu">
+                    <div class="userInfo" align="center">
+                                <img class="userPic" ng-src="{{settings.user.profilePic}}">
+                                <h3>Howdy <strong>{{settings.user.name}}</strong></h3>
+                    </div>
+                    <div class="navLinks">
+                        <button ui-sref="home()" ng-click="toggleLeft()" class="button"><i class="ion-ios7-home"></i> Home</button>
+                        <button ui-sref="settings()" ng-click="toggleLeft()"cclass="button"><i class="ion-settings"></i> Settings</button>
+                        <button ng-click="logout()" class="button"><i class="icon ion-ios7-undo"></i> Logout</button>
+                    </div>
+                </div>
+            </ion-content>
+        </ion-side-menu>
+    </ion-side-menus>
+</body>
+
+</html>
+
