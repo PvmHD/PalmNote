@@ -16,7 +16,7 @@ npm install bower
 ```
 
 - Clone the repository `git clone https://github.com/kpourdeilami/PalmNote.git`
-- Read [Ionic docs](http://ionicframework.com) and [Cordova docs](http://cordova.apache.org) on how to build the app.
+- Read [Ionic docs](http://ionicframework.com) and [Cordova docs](http://cordova.apache.org) on how to build the app
 
 License
 ========
