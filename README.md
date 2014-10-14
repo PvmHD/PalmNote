@@ -3,6 +3,11 @@ Palm Note Cordova Project
 
 This repository includes the source files to the latest versions of [Palm Note](http://palmnote.github.io) app.
 
+Getting Started
+========
+
+1. Clone the repository `https://github.com/kpourdeilami/PalmNote.git`
+
 License
 ========
 
