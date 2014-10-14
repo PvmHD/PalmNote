@@ -3,6 +3,7 @@
         <section ng-switch-when="0">
             <div class="topHeader textType">
                 <i class="ion-ios7-paper"></i>
+                <!--<div ng-include="'templates/followUpHeader.html'"></div>-->
             </div>
         </section>
         <section ng-switch-when="1">
@@ -40,9 +41,11 @@
             </section>
             <section ng-switch-when="1">
                 <span class="address">{{palmNote.value}}</span>
-                <iframe height="300" frameborder="0" style="border:0;width:100%;margin-bottom:10px;border-radius: 3px;"
-                        ng-src="{{trustSrc(GooleMapsSrc)}}">
-                </iframe>
+                <div class="expandToFrame flex-video">
+                    <iframe height="500" frameborder="0"
+                            ng-src="{{trustSrc(GooleMapsSrc)}}">
+                    </iframe>
+                </div>
             </section>
             <section ng-switch-when="2">
                 <span class="link">{{palmNote.value}}</span>
@@ -81,7 +84,9 @@
             </section>
         </section>
     </div>
+    <!--
     <div class="followUps">
-
+        <button ng-click="openFollowUpEditor()">test</button>
     </div>
+    -->
 </ion-content>

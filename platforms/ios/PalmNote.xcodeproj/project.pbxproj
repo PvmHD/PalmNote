@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		09ECEC553C39410D82A1BB5F /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AF2E542CDF43E9814B4DA7 /* libiconv.dylib */; };
 		0DE11AEC738D4D8C8490F5E6 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A15F3705B834B32807C8553 /* CoreVideo.framework */; };
