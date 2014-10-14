@@ -6,7 +6,17 @@ This repository includes the source files to the latest versions of [Palm Note](
 Getting Started
 ========
 
-1. Clone the repository `https://github.com/kpourdeilami/PalmNote.git`
+1. Install [NodeJS](http://nodejs.org), Android SDK and XCode.
+2. Install Cordova, Ionic and Bower
+
+```
+npm install ionic
+npm install cordova
+npm install bower
+```
+
+3. Clone the repository `git clone https://github.com/kpourdeilami/PalmNote.git`
+4. Read [Ionic docs](http://ionicframework.com) and [Cordova docs](http://cordova.apache.org) on how to build the app.
 
 License
 ========
