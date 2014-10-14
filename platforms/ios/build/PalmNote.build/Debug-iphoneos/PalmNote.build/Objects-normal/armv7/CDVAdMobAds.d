@@ -1,0 +1,36 @@
+dependencies: \
+  /Users/khashayar/Documents/Projects/opensource/Palm/PalmApp/platforms/ios/PalmNote/Plugins/com.admob.google/CDVAdMobAds.m \
+  /Users/khashayar/Documents/Projects/opensource/Palm/PalmApp/platforms/ios/PalmNote/Plugins/com.admob.google/CDVAdMobAds.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/palmapp/platforms/ios/build/device/include/Cordova/CDV.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/palmapp/platforms/ios/build/device/include/Cordova/CDVAvailability.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/palmapp/platforms/ios/build/device/include/Cordova/CDVPlugin.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/palmapp/platforms/ios/build/device/include/Cordova/CDVPluginResult.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/palmapp/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/palmapp/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/palmapp/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/palmapp/platforms/ios/build/device/include/Cordova/CDVViewController.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/palmapp/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/palmapp/platforms/ios/build/device/include/Cordova/CDVWhitelist.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/palmapp/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/palmapp/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/palmapp/platforms/ios/build/device/include/Cordova/CDVDebug.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/palmapp/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/palmapp/platforms/ios/build/device/include/Cordova/CDVTimer.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/palmapp/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/palmapp/platforms/ios/build/device/include/Cordova/NSData+Base64.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/palmapp/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/palmapp/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/palmapp/platforms/ios/build/device/include/Cordova/CDVJSON.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/PalmApp/platforms/ios/PalmNote/Plugins/com.admob.google/GADAdSize.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/PalmApp/platforms/ios/PalmNote/Plugins/com.admob.google/GADModules.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/PalmApp/platforms/ios/PalmNote/Plugins/com.admob.google/GADBannerView.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/PalmApp/platforms/ios/PalmNote/Plugins/com.admob.google/GADBannerViewDelegate.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/PalmApp/platforms/ios/PalmNote/Plugins/com.admob.google/GADInAppPurchaseDelegate.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/PalmApp/platforms/ios/PalmNote/Plugins/com.admob.google/GADRequest.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/PalmApp/platforms/ios/PalmNote/Plugins/com.admob.google/GADRequestError.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/PalmApp/platforms/ios/PalmNote/Plugins/com.admob.google/GADInterstitial.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/PalmApp/platforms/ios/PalmNote/Plugins/com.admob.google/GADInterstitialDelegate.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/PalmApp/platforms/ios/PalmNote/Plugins/com.admob.google/GADAdMobExtras.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/PalmApp/platforms/ios/PalmNote/Plugins/com.admob.google/GADAdNetworkExtras.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/PalmApp/platforms/ios/PalmNote/Classes/MainViewController.h \
+  /Users/khashayar/Documents/Projects/opensource/Palm/palmapp/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h

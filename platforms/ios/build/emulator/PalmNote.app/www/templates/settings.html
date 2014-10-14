@@ -1,0 +1,48 @@
+<ion-content>
+    <div class="list">
+        <div class="stats" style="background:#434A54;">
+            <h3><span><i class="ion-ios7-settings"></i></span>Settings</h3>
+        </div>
+        <div class="item item-divider">
+            Personal Settings
+        </div>
+        <label class="item item-input item-floating-label">
+            <span class="input-label">My name</span>
+            <input type="text" placeholder="My name"
+                   ng-model="settings.user.name"
+                   ng-change="settings.$save(settings.user)">
+        </label>
+        <label class="item item-input item-floating-label">
+            <span class="input-label">My email</span>
+            <input type="email" placeholder="My email"
+                   ng-model="settings.user.email"
+                   ng-change="settings.$save(settings.user)">
+        </label>
+        <div class="item item-divider">
+            Risky Actions
+        </div>
+        <button ng-hide="setSecretPin" ng-click="askForPin()"
+                class="item button-block item-icon-left"
+                style="color:rgba(237,85,101, 0.6);text-align: left;">
+            <i class="icon ion-ios7-locked-outline"></i>
+            Change the secret pin
+        </button>
+        <label ng-show="setSecretPin" class="item item-input item-floating-label">
+            <span class="input-label">Secret Pin</span>
+            <input type="tel" placeholder="My Pin" ng-model="settings.palmNote.secretPin"
+                   ng-change="settings.$save(settings.palmNote.secretPin)">
+        </label>
+        <button ng-click="logout()" class="item button-block item-icon-left"
+                style="color:rgba(237,85,101, 0.6);text-align: left;">
+            <i class="icon ion-ios7-undo-outline"></i>
+            Logout
+        </button>
+        <button ng-click="deleteAll()" class="item button-block item-icon-left"
+                style="color:rgba(237,85,101, 0.6);text-align: left;">
+            <i class="icon ion-ios7-trash-outline"></i>
+            Delete all data
+        </button>
+
+
+    </div>
+</ion-content>
