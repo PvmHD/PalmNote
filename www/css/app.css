@@ -628,13 +628,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   background: rgba(67, 74, 84, 0.7) !important; }
 
 .bar.bar-light .title {
-  font-family: "Ubuntu";
-  font-size: 16px !important; }
+  font-family: "Ubuntu"; }
 
-.bar .button.button-icon {
-  font-size: 16px !important; }
-  .bar .button.button-icon.black {
-    color: #444; }
+.bar .button.button-icon.black {
+  color: #444; }
 
 .bar .button.button-icon .icon:before, .bar .button.button-icon:before, .bar .button.button-icon.icon-left:before, .bar .button.button-icon.icon-right:before {
   vertical-align: top;

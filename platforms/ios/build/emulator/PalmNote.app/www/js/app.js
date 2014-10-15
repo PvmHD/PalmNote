@@ -769,7 +769,7 @@ app.controller('palmNoteCtrl', function ($scope, palmNoteIndex, $ionicPopup, $ti
     Note follow-ups
      */
 
-    $ionicModal.fromTemplateUrl('templates/newPalmNoteEditor.html', {
+    $ionicModal.fromTemplateUrl('templates/newFollowUp.html', {
         scope: $scope,
         animation: 'slide-in-left'
 
@@ -787,6 +787,16 @@ app.controller('palmNoteCtrl', function ($scope, palmNoteIndex, $ionicPopup, $ti
 
     $scope.updateValue = function (newVal) {
         $scope.newNoteValue = newVal;
+    };
+
+    $scope.followUpsExist = false;
+
+    $scope.followUpCheck = function () {
+        if ($scope.palmNote.followUps === undefined || $scope.palmNote.followUps === null) {
+            $scope.followUpsExist = true;
+        } else {
+            $scope.followUpsExist = false;
+        }
     };
 
     /*

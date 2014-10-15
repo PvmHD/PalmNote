@@ -10,24 +10,36 @@
 	<string>PalmNote</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>142343D3F2B1746024D0C8372A6AD6EEE3F6D8C2</key>
+		<string>https://github.com/PalmNote/PalmNote-ios.git</string>
 		<key>EE33517903DED4CD534A345BCFD47A225FD59F19</key>
 		<string>https://github.com/kpourdeilami/PalmNote.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>platforms/ios/PalmNote.xcodeproj</string>
+	<string>PalmNote.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>142343D3F2B1746024D0C8372A6AD6EEE3F6D8C2</key>
+		<string>../..</string>
 		<key>EE33517903DED4CD534A345BCFD47A225FD59F19</key>
-		<string>../../../..</string>
+		<string>../../../PalmApp</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/kpourdeilami/PalmNote.git</string>
+	<string>https://github.com/PalmNote/PalmNote-ios.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>EE33517903DED4CD534A345BCFD47A225FD59F19</string>
+	<string>142343D3F2B1746024D0C8372A6AD6EEE3F6D8C2</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>142343D3F2B1746024D0C8372A6AD6EEE3F6D8C2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

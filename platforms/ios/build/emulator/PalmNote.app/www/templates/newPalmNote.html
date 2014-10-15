@@ -69,9 +69,14 @@
                                autocapitalize="off"
                                autocorrect="off">
                     </div>
-                    <iframe height="300" frameborder="0" style="border:0;width:100%;margin-bottom:10px;"
-                            ng-src="{{trustSrc(GooleMapsSrc)}}">
-                    </iframe>
+                    <div class="noteContent" style="padding:10px;width:100%;">
+                        <div class="flex-video">
+                            <iframe height="300" frameborder="0"
+                                    style="width: 100%;"
+                                    ng-src="{{trustSrc(GooleMapsSrc)}}">
+                            </iframe>
+                        </div>
+                    </div>
                 </section>
                 <section ng-switch-when="2">
                     <div class="typeInput">

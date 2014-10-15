@@ -214,10 +214,17 @@ Main Components
     display: inline-block; }
 
 .noteContent {
+  position: relative;
   padding: 10px;
   color: #656D78;
   line-height: 2em;
   font-size: 12px; }
+  .noteContent .expandToFrame {
+    position: absolute;
+    left: 0;
+    right: 0; }
+    .noteContent .expandToFrame iframe {
+      width: 100%; }
   .noteContent h3 {
     font-size: 14px;
     color: #434A54;
@@ -621,14 +628,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   background: rgba(67, 74, 84, 0.7) !important; }
 
 .bar.bar-light .title {
-  font-family: "Ubuntu";
-  font-size: 16px !important; }
+  font-family: "Ubuntu"; }
 
-.bar .button.button-icon {
-  font-size: 16px !important;
-  color: #007AFF; }
-  .bar .button.button-icon.black {
-    color: #444; }
+.bar .button.button-icon.black {
+  color: #444; }
 
 .bar .button.button-icon .icon:before, .bar .button.button-icon:before, .bar .button.button-icon.icon-left:before, .bar .button.button-icon.icon-right:before {
   vertical-align: top;
@@ -757,6 +760,21 @@ Shared classes
 
 .angular-google-map-container {
   height: 400px; }
+
+.verticalCenterContainer {
+  position: relative; }
+
+.verticalCenter {
+  width: 100%;
+  padding: 10px;
+  max-width: 62.5rem;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
 
 /*
 Media Queries
