@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		09ECEC553C39410D82A1BB5F /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A8AF2E542CDF43E9814B4DA7 /* libiconv.dylib */; };
 		0DE11AEC738D4D8C8490F5E6 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A15F3705B834B32807C8553 /* CoreVideo.framework */; };
@@ -50,6 +51,7 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		82460310CF3D43F3A7A12A6E /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 39015F73812540B69F9D94C3 /* IonicKeyboard.m */; };
+		845105E519EEF5B100309603 /* launcher.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845105E419EEF5B100309603 /* launcher.storyboard */; };
 		84D8D49F19C7584100C5B875 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D8D49E19C7584100C5B875 /* Images.xcassets */; };
 		893D104EC9684C5AB80D45F9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD839744DD440679C817F32 /* StoreKit.framework */; };
 		8CB337E6B43444BA8668F6EE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB3846B23B249E294046CF9 /* SystemConfiguration.framework */; };
@@ -157,6 +159,7 @@
 		7F77D64AC2724AB8A944EA63 /* GADInAppPurchaseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADInAppPurchaseDelegate.h; path = "com.google.admobsdk-ios/GADInAppPurchaseDelegate.h"; sourceTree = "<group>"; };
 		80E8B42A691C444AAA7F9187 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADAdNetworkExtras.h; path = com.admob.google/GADAdNetworkExtras.h; sourceTree = "<group>"; };
 		813997DA4F484E8C82CD88E6 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADBannerView.h; path = "com.google.admobsdk-ios/GADBannerView.h"; sourceTree = "<group>"; };
+		845105E419EEF5B100309603 /* launcher.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = launcher.storyboard; sourceTree = "<group>"; };
 		84D8D49E19C7584100C5B875 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PalmNote/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		85F7C0D007614B72B02E4D04 /* UIKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* PalmNote-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PalmNote-Info.plist"; path = "../PalmNote-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -264,6 +267,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				845105E419EEF5B100309603 /* launcher.storyboard */,
 				EB87FDF41871DAF40020F90C /* config.xml */,
 				EB87FDF31871DA8E0020F90C /* www */,
 				EB87FDF21871DA7A0020F90C /* merges */,
@@ -553,6 +557,7 @@
 				3088BBBE154F3926009F9C59 /* Default-Landscape~ipad.png in Resources */,
 				3088BBBF154F3926009F9C59 /* Default-Portrait@2x~ipad.png in Resources */,
 				7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */,
+				845105E519EEF5B100309603 /* launcher.storyboard in Resources */,
 				3088BBC0154F3926009F9C59 /* Default-Portrait~ipad.png in Resources */,
 				7E7966DE1810823500FA85AD /* icon-40.png in Resources */,
 				3088BBC1154F3926009F9C59 /* Default@2x~iphone.png in Resources */,
@@ -658,7 +663,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -693,7 +697,7 @@
 				);
 				PRODUCT_NAME = PalmNote;
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -702,7 +706,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -735,7 +738,7 @@
 				);
 				PRODUCT_NAME = PalmNote;
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

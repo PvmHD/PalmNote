@@ -1089,9 +1089,9 @@ var applySettingsScope = function (scopeCtrl, newVal) {
 // Ads function
 function showAds() {
     if (device.platform === 'iOS') {
-        admob.requestInterstitialAd({interstitialAdId: "ca-app-pub-4403501246038809/7695173779", autoShowInterstitial: true});
+        //admob.requestInterstitialAd({interstitialAdId: "ca-app-pub-4403501246038809/7695173779", autoShowInterstitial: true});
     } else {
-        admob.requestInterstitialAd({interstitialAdId: "ca-app-pub-4403501246038809/9171906976", autoShowInterstitial: true});
+        //admob.requestInterstitialAd({interstitialAdId: "ca-app-pub-4403501246038809/9171906976", autoShowInterstitial: true});
     }
 };
 
